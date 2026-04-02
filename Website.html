@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Website</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #011f4b;
+      color: #333;
+    }
+    header {
+      background: #0000FF; 
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background: #3170DE;
+      overflow: hidden;
+    }
+    nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 20px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      background: #575757;
+    }
+    section {
+      display: flex;             
+      align-items: flex-start;    
+      justify-content: space-between;
+      padding: 40px;
+      background: white;
+      margin: 20px;
+      border-radius: 8px;
+    }
+    section .text {
+      flex: 2;                   
+      padding-right: 20px;
+    }
+    section img {
+      flex: 1;                    
+      max-width: 250px;           
+      height: auto;
+      border-radius: 8px;
+    }
+    #home {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 20px;
+    }
+    #home .text {
+      flex: 2;
+    }
+    #home .images {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    #home .images img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #333;
+      color: white;
+      margin-top: 20px;
+    }
+    @media (max-width: 768px) {
+      section {
+        flex-direction: column;
+      }
+      section .text {
+        padding-right: 0;
+      }
+      #home {
+        flex-direction: column;
+      }
+      #home .images {
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to My Website</h1>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me Today</a>
+    <a href="#family">My Family</a>
+    <a href="#achievements">My Achievements</a>
+    <a href="#hobbies">My Hobbies</a>
+  </nav>
+
+  <section id="home">
+    <div class="text">
+      <h2>Home</h2>
+      <p>Welcome to my personal website. My name is Kate Charisse O. Asis, a 19-year-old student born on December 17, 2006, in Carmona, Cavite. I currently live in Baguer, Libungan, Cotabato. This site presents who I am, my background, and my journey as a student. It highlights my current situation, my family, my achievements, and my hobbies. Each section reflects my growth, values, and goals.</p>
+      <p>This website is part of my requirement in GEMST 03. It also serves as a reflection of my experiences and identity. It shows how I face challenges, adapt to change, and continue to improve. As you explore this site, you will understand my journey and what motivates me to succeed.</p>
+    </div>
+    <div class="images">
+      <img src="images/home-image1.jpg" alt="Home Image 1">
+      <img src="images/home-image2.jpg" alt="Home Image 2">
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="text">
+      <h2>About Me Today</h2>
+      <p>I am currently a Bachelor of Public Administration student at the University of Southern Mindanao Main Campus. I am an irregular student because I shifted from my previous course, Bachelor of Science in Development
+Communication, in the same university.</p>
+      <p>Because of this shift, I now take my GEMST 03 class with second-year Computer Engineering students even though I am still in my first year. This setup requires strong adjustment because I am exposed to a different academic environment, new classmates, and higher expectations.</p>
+      <p>At first, the adjustment was difficult. I needed to keep up with lessons, understand new concepts, and adapt to different teaching styles. I also had to build confidence in interacting with new people. Despite these challenges, I remained focused and committed to my studies.
+    </p>
+      <p>I am introverted. I stay quiet in new environments and observe first before engaging. Once I become comfortable, I show my true personality. I am friendly, approachable, and easy to get along with. I value respect and positive relationships.</p>
+      <p>I describe myself as simple, kind, and determined. I take my responsibilities
+seriously and complete my tasks on time. I believe that discipline and consistency are important in achieving success.</p>
+      <p>Being a shifter taught me how to adapt and remain strong. It helped me accept change and move forward with confidence. I continue to focus on my goals and improve myself every day.
+    </p>
+    </div>
+    <img src="images/about-image.jpg" alt="About Me Image">
+  </section>
+
+  <section id="family">
+    <div class="text">
+      <h2>My Family</h2>
+      <p>We are a family of six. I am the second child among four siblings, with two boys and two girls. Being the second child taught me responsibility and
+independence at an early age. I learned how to assist my parents and support my siblings.
+</p>
+      <p>Our family values love, respect, patience, and cooperation. Each member plays an important role, and we support one another in all situations. We share both joyful and challenging moments, which strengthens our bond.
+</p>
+      <p>My family is my greatest source of strength and inspiration. They guide me in making decisions and support me in achieving my goals. When I decided to shift my course, they trusted me and respected my choice. Their support gave me the confidence to continue.
+</p>
+      <p>Even when we face difficulties, we remain strong because we are united. I am grateful for their sacrifices and unconditional support.
+Everything I achieve is also for them.
+</p>
+    </div>
+    <img src="images/family-image.jpg" alt="Family Image">
+  </section>
+
+  <section id="achievements">
+    <div class="text">
+      <h2>My Achievements</h2>
+      <p>I am proud of the achievements I have earned through hard work, discipline, and perseverance. These accomplishments reflect my dedication to my studies and my commitment to excellence.</p>
+      <p>I graduated from C.V. Cocal Elementary School as an honor student. This achievement taught me the importance of education, discipline, and consistent effort. I continued my studies at Presbitero National High School, where I also graduated as an honor student.</p>
+      <p>During my senior high school, I graduated with high honors. This milestone marked one of the most important achievements in my academic journey. It showed my strong dedication and focus in reaching my goals.</p>
+      <p>In the same level, I received the Best in Research award. I served as the leader of our research group and was the only girl among seven members. Despite this, I successfully guided the team, organized tasks, and ensured that our research was completed effectively. This experience strengthened my leadership skills, confidence, and sense of responsibility.</p>
+      <p>I was also recognized as a College Academic Scholar during my time in Bachelor of Science in Development Communication at the University of Southern Mindanao Main Campus, with a General Weighted Average (GWA) of 1.67. This achievement proves my ability to maintain strong academic performance even at the college level.</p>
+      <p>These achievements helped me grow as a student and as a leader. They continue to motivate me to work harder and strive for excellence in everything I do.</p>
+    </div>
+    <img src="images/achievements-image.jpg" alt="Achievements Image">
+  </section>
+
+  <section id="hobbies">
+    <div class="text">
+      <h2>My Hobbies</h2>
+      <p>My hobbies play an important role in maintaining balance in my life. They help me relax, reduce stress, and stay motivated.</p>
+      <p>I enjoy reading because it allows me to explore new ideas and perspectives. It improves my understanding, focus, and critical thinking skills.</p>
+      <p>I also enjoy listening to music, especially English pop and love songs. Music helps me manage stress, improve my mood, and stay motivated while studying or completing tasks.</p>
+      <p>Another hobby I enjoy is watching BL dramas. I appreciate their unique stories, emotional depth, and character development. Watching these helps me relax and unwind after a busy day.</p>
+      <p>These hobbies help me recharge and maintain a positive mindset. They support my well-being and allow me to perform better in my responsibilities.</p>
+    </div>
+    <img src="images/hobbies-image.jpg" alt="Hobbies Image">
+  </section>
+
+  <footer>
+    <p>© 2026 My Personal Website</p>
+  </footer>
+
+</body>
+</html>
